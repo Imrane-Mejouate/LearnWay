@@ -9,8 +9,6 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "buildcss": "tailwindcss -i ./src/styles/tailwindcss/index.css -o ./src/styles/tailwindcss/output.css --watch"
   },
   "dependencies": {
