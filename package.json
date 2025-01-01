@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://imrane-mejouate.github.io/LearnWay/",
+  "homepage": "https://imrane-mejouate.github.io/Learnway/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "buildcss": "tailwindcss -i ./src/styles/tailwindcss/index.css -o ./src/styles/tailwindcss/output.css --watch"
   },
   "dependencies": {
